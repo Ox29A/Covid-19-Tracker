@@ -1,10 +1,8 @@
 import React from "react";
 
-import { Cards, Chart, CountryPicker } from "./components";
 import styles from "./App.module.css";
 import { fetchData } from "./api";
 
-import coronaImage from "./images/image.png";
 import { CssBaseline } from "@material-ui/core";
 import Appbar from "./components/Appbar.js";
 

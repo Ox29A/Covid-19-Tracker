@@ -82,7 +82,7 @@ const MyDrawer = withStyles(styles)(
           <ListItem
             button
             component={Link}
-            to="/"
+            to="/Home"
             onClick={onItemClick("Home")}
           >
             <ListItemText>Home</ListItemText>
@@ -90,16 +90,24 @@ const MyDrawer = withStyles(styles)(
           <ListItem
             button
             component={Link}
-            to="/Covid-19"
-            onClick={onItemClick("Covid-19")}
+            to="/Portfolio"
+            onClick={onItemClick("Portfolio")}
+          >
+            <ListItemText>Portfolio</ListItemText>
+          </ListItem>
+          <ListItem
+            button
+            component={Link}
+            to="/Covid-Tracker"
+            onClick={onItemClick("Covid Tracker")}
           >
             <ListItemText>Covid Tracker</ListItemText>
           </ListItem>
         </List>
       </Drawer>
       <main className={classes.content}>
-        <Route exact path="/" component={Home} />
-        <Route path="/Covid-19" component={Covid19} />
+        <Route exact path="/Home" component={Home} />
+        <Route exact path="/Covid-Tracker" component={Covid19} />
       </main>
     </Router>
   )
