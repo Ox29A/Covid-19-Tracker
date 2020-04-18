@@ -1,14 +1,10 @@
 import React from "react";
+import { Cards, Chart, CountryPicker } from "../components";
+import styles from "../App.module.css";
+import { fetchData } from "../api";
+import coronaImage from "../images/image.png";
 
-import { Cards, Chart, CountryPicker } from "./components";
-import styles from "./App.module.css";
-import { fetchData } from "./api";
-
-import coronaImage from "./images/image.png";
-import { CssBaseline } from "@material-ui/core";
-import Appbar from "./components/Appbar.js";
-
-class App extends React.Component {
+class Covid19 extends React.Component {
   state = {
     data: {},
     country: "",
@@ -31,13 +27,13 @@ class App extends React.Component {
 
     return (
       <div className={styles.container}>
-        <React.Fragment>
-          <CssBaseline />
-          <Appbar />
-        </React.Fragment>
+        <img className={styles.image} src={coronaImage} alt="COVID-19" />
+        <Cards data={data} />
+        <CountryPicker handleCountryChange={this.handleCountryChange} />
+        <Chart data={data} country={country} />
       </div>
     );
   }
 }
 
-export default App;
+export default Covid19;
