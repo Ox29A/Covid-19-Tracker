@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Home/static/css/main.ebfc0d35.chunk.css",
-    "main.js": "/Home/static/js/main.4edaa865.chunk.js",
-    "main.js.map": "/Home/static/js/main.4edaa865.chunk.js.map",
-    "runtime-main.js": "/Home/static/js/runtime-main.1032a16c.js",
-    "runtime-main.js.map": "/Home/static/js/runtime-main.1032a16c.js.map",
-    "static/js/2.118fb064.chunk.js": "/Home/static/js/2.118fb064.chunk.js",
-    "static/js/2.118fb064.chunk.js.map": "/Home/static/js/2.118fb064.chunk.js.map",
-    "index.html": "/Home/index.html",
-    "precache-manifest.768518327f713fd692c4fbb6c7c5e0b5.js": "/Home/precache-manifest.768518327f713fd692c4fbb6c7c5e0b5.js",
-    "service-worker.js": "/Home/service-worker.js",
-    "static/css/main.ebfc0d35.chunk.css.map": "/Home/static/css/main.ebfc0d35.chunk.css.map",
-    "static/js/2.118fb064.chunk.js.LICENSE.txt": "/Home/static/js/2.118fb064.chunk.js.LICENSE.txt",
-    "static/media/image.png": "/Home/static/media/image.d7265326.png"
+    "main.css": "/Covid-19-Tracker/static/css/main.ebfc0d35.chunk.css",
+    "main.js": "/Covid-19-Tracker/static/js/main.4edaa865.chunk.js",
+    "main.js.map": "/Covid-19-Tracker/static/js/main.4edaa865.chunk.js.map",
+    "runtime-main.js": "/Covid-19-Tracker/static/js/runtime-main.9f3d5c86.js",
+    "runtime-main.js.map": "/Covid-19-Tracker/static/js/runtime-main.9f3d5c86.js.map",
+    "static/js/2.4584318d.chunk.js": "/Covid-19-Tracker/static/js/2.4584318d.chunk.js",
+    "static/js/2.4584318d.chunk.js.map": "/Covid-19-Tracker/static/js/2.4584318d.chunk.js.map",
+    "index.html": "/Covid-19-Tracker/index.html",
+    "precache-manifest.41d22fe4a287a9b60125b267ed23c135.js": "/Covid-19-Tracker/precache-manifest.41d22fe4a287a9b60125b267ed23c135.js",
+    "service-worker.js": "/Covid-19-Tracker/service-worker.js",
+    "static/css/main.ebfc0d35.chunk.css.map": "/Covid-19-Tracker/static/css/main.ebfc0d35.chunk.css.map",
+    "static/js/2.4584318d.chunk.js.LICENSE.txt": "/Covid-19-Tracker/static/js/2.4584318d.chunk.js.LICENSE.txt",
+    "static/media/image.png": "/Covid-19-Tracker/static/media/image.d7265326.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1032a16c.js",
-    "static/js/2.118fb064.chunk.js",
+    "static/js/runtime-main.9f3d5c86.js",
+    "static/js/2.4584318d.chunk.js",
     "static/css/main.ebfc0d35.chunk.css",
     "static/js/main.4edaa865.chunk.js"
   ]
